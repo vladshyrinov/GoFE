@@ -1,0 +1,811 @@
+/* COMMON - SETTINGS */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 912px;
+	height: 1310px;
+	margin: 0 auto;
+}
+
+header,
+.base, 
+footer {
+	width: 100%;
+} 
+
+header {
+	height: 332px;
+}
+
+.base {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 878px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100px;
+	background: #213a4d;
+}
+
+h1,
+h2 {
+	font-weight: bold;
+	color: #154467;
+}
+
+h1 {
+	font-size: 12px;
+}
+
+h2 {
+	font-size: 10px;
+}
+
+/* HEADER */
+
+.head-registr {
+	display: flex;
+	margin-top: 18px;
+	margin-left: 8px;
+}
+
+.registr-phones {
+	margin-top: 5px;
+}
+
+.registr-phones img {
+	margin-bottom: -5px;
+}
+
+.registr-phones span {
+	font-size: 18px;
+	font-weight: bold;
+	color: #5e696d;
+}
+
+.registr-autorize {
+	display: flex;
+	width: 495px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin-left: 24px;
+	font-family: 'Lucida Sans';
+	font-size: 13px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(#1c5e7f, #0e385d);
+}
+
+.registr-autorize img {
+	margin-left: 5px;
+}
+
+.autorize-form {
+	display: flex;
+}
+
+.autorize-form input {
+	width: 110px;
+	height: 14px;
+	margin-left: 6px;
+	padding-left: 5px;
+	border: 0;
+	border-radius: 1px;
+}
+
+.registr-autorize .enter {
+	position: relative;
+	top: 2px;
+	margin-left: 7px;
+}
+
+.enter a {
+	color: #fff;
+}
+
+.enter + .enter {
+	padding-left: 6px;
+}
+
+.enter + .enter:before {
+	position: absolute;
+	content: url('../img/line.png');
+	top: 3px;
+	left: 0;
+}
+
+.registr-autorize .forget {
+	position: relative;
+	top: 2px;
+	margin-left: 20px;
+}
+
+.forget a {
+	color: #bfbfbf;
+	text-decoration: underline;
+}
+
+.registr-location {
+	position: relative;
+	width: 73px;
+	height: 17px;
+	margin-top: 2px;
+	margin-left: 16px;
+	border: 1px solid #bfbfbf;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+}
+
+.registr-location a {
+	display: inline-block;
+	margin-top: 3px;
+	width: 12px;
+	height: 11px;
+	background: url('../img/location.png') no-repeat 0 0;
+}
+
+.registr-location .home {
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+.registr-location .map {
+	position: absolute;
+	top: 0;
+	left: 31px;
+	background-position: -20px 0;
+}
+
+.registr-location .letter {
+	position: absolute;
+	top: 0;
+	left: 53px;
+	background-position: -40px 0;
+}
+
+
+.head-banner {
+	height: 240px;
+	margin-top: 8px;
+	background: url('../img/banner.jpg') no-repeat;
+	background-size: 100% 240px;
+}
+
+.head-banner a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.head-banner + nav {
+	position: relative;
+	width: 100%;
+	margin-top: -12px;
+	background: linear-gradient(to bottom, #505860 0%, #505860 5%, #222529 21%, #030303 100%);;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+.menu-head {
+	display: flex;
+	align-items: center;
+	margin-left: 133px;
+	margin-top: 17px;
+}
+
+.head-item {
+	color: #b1bcc0;
+	font-size: 11px;
+}
+
+.head-link {
+	padding: 5px 15px;
+	font-family: 'Lucida Sans';
+	font-size: 14px;
+	line-height: 36px;
+	color: #b1bcc0;
+}
+
+.head-link:hover {
+	color: #fff;
+	background: linear-gradient(to bottom, #185476 0%, #0e375c 50%);
+	border-radius: 15px;
+}
+
+.link-shift {
+	position: relative;
+	left: 5px;
+}
+
+.goods {
+	position: absolute;
+	top: 7px;
+	right: 13px;
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+}
+
+.goods div {
+	margin-left: 10px;
+}
+
+.goods .money {
+	margin-left: 14px;
+	color: #b1bcc0;
+	font-size: 11px;
+}
+
+.products {
+	color: #b1bcc0;
+	font-size: 11px;
+}
+
+.goods span {
+	font-size: 13px;
+	font-weight: bold;
+	color: #0d5a8f;
+}
+
+/* MAIN */
+
+.base {
+	margin-top: 2px;
+}
+
+/*MAIN - SEARCH*/
+
+.search {
+	display: flex;
+	margin: 10px 0 16px 0;
+}
+
+.search-auto,
+.search-tires,
+.search-discs {
+	font-family: Arial;
+	width: 383px;
+	height: 118px;
+	margin-right: 13px;
+	padding: 5px 12px 10px 17px;
+	border: 1px solid #b6b6b7;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px 0px rgba(153,153,153,1);
+}
+
+.search-tires {
+	width: 163px;
+	margin-right: 9px;
+}
+
+.search-discs {
+	width: 236px;
+	margin-right: 0;
+}
+
+.labels,
+.fields {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.labels {
+	width: 70px;
+}
+
+.fields + .labels {
+	margin-left: 25px;
+}
+
+.auto-headings {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.select-wrapper {
+	position: relative;
+}
+
+.select-wrapper:before {
+	content:'';
+	left:85px; 
+	top:0;
+	width:14px; 
+	height:14px;
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+	position:absolute;
+	z-index: 1;
+	pointer-events:none;
+}
+
+.select-wrapper:after {
+	content:'';
+	left:88px; 
+	top:4px;
+	width:14px; 
+	height:14px;
+	z-index: 2;
+	background: url('../img/arrow.png') no-repeat;
+	position:absolute;
+	pointer-events:none;
+}
+
+.auto-label {
+	display: block;
+	margin-bottom: 10px;
+	line-height: 8px;
+	font-size: 9px;
+}
+
+.fill-gray {
+	color: #77858b;
+}
+
+.auto-select {
+	margin-bottom: 7px;
+	width: 100px;
+	height: 15px;
+	box-shadow: inset 1px 1px 1px 0px rgba(172,172,172,1);
+	background: #fff;
+	color: #000;
+	border: 0;
+	outline: 0;
+	display: block;
+	cursor:pointer;
+}
+
+.wrap-min:after {
+	left: 46px;
+}
+
+.wrap-min:before {
+	left: 43px;
+}
+
+.select-min {
+	width: 60px;
+}
+
+.search-find {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.search-find a {
+	color: #154467;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.label-width {
+	width: 38px;
+	position: relative;
+	top: -45px;
+}
+
+.wrap-inline {
+	display: inline-block;
+}
+
+.wrap-inline:before {
+	left:33px;
+}
+
+.wrap-inline:after {
+	left:36px;
+	width:14px; 
+	height:14px; 
+}
+
+.wrap-down {
+	margin-top: 10px;
+}
+
+.wrap-down:after {
+	left: 37px;
+}
+
+.wrap-down:before {
+	left: 34px;
+	width: 13px;
+	height: 13px;
+}
+
+.inputs-down {
+	margin-top: 5px;
+}
+
+.tires-select {
+	width: 50px;
+	height: 15px;
+	box-shadow: inset 1px 1px 5px 0px rgba(172,172,172,1);
+	background: #fff;
+	color: #000;
+	border: 0;
+	outline: 0;
+	display: block;
+	cursor:pointer;
+}
+
+.season-label {
+	line-height: 8px;
+	font-size: 12px;
+}
+
+.search-tires .search-find {
+	position: relative;
+	top: -20px;
+	left: 0;
+}
+
+.labels2,
+.fields2 {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.labels2 {
+	width: 72px;
+}
+
+.fields2 {
+	position: relative;
+	top: -20px;
+}
+
+.search-discs .select-wrapper {
+	margin-bottom: 10px;
+}
+
+.search-discs .select-wrapper:before {
+	left: 39px;
+}
+
+.search-discs .select-wrapper:after {
+	left: 41px;
+}
+
+.search-discs select {
+	width: 56px;
+} 
+
+.dop-disc {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	margin-left: 12px;
+	padding-left: 12px;
+	top: -10px;
+	border-left: 1px solid #bdc6ca;
+}
+
+.dop-disc .select-wrapper {
+	margin-top: -6px;
+}
+
+.search-discs .search-find {
+	position: relative;
+	top: -7px;
+	left: 0;
+}
+
+/*MAIN-CONTENT*/
+
+.content {
+	display: flex;
+}
+
+.column-heading {
+	display: flex;
+	align-items: center;
+	width: 176px;
+	height: 19px;
+	margin: 2px 10px 8px 0;
+	font-family: 'Lucida Sans';
+	font-size: 13px;
+	color: #114165;
+	border: 1px solid #8b979c;
+	border-radius: 15px;
+	padding: 3px;
+}
+
+.heading-sign {
+	position: relative;
+	width: 22px;
+	height: 22px;
+	margin-right: 6px;
+	background: linear-gradient(to bottom, #1c5e7e, #0d3559);
+	border-radius: 50%;
+}
+
+.brands .column-heading {
+	position: relative;
+	left: 10px;
+}
+
+.heading-sign img {
+	position: absolute;
+	top: 4px;
+	left: 5px;
+}
+
+.aside-menu,
+.aside-form {
+	margin-top: 11px;
+}
+
+.brands .aside-menu {
+	margin-left: 9px;
+}
+
+.brands .aside-form {
+	margin-left: 22px;
+}
+.aside-form .asidechoose-heading{
+	width: 128px;
+}
+
+.asidechoose-heading {
+	display: flex;
+	align-items: center;
+	width: 144px;
+	height: 22px;
+	border: 1px solid #8b979c;
+	border-radius: 15px;
+	font-size: 14px;
+	color: #114165;
+	padding: 2px;
+}
+
+.heading-tires {
+	position: relative;
+	top: 0;
+	left: 2px;	
+}
+
+.heading-discs {
+	position: relative;
+	top: -2px;
+	left: 2px;
+}
+
+.heading-bolts {
+	position: relative;
+	top: -4px;
+	left: 2px;
+}
+
+.asidechoose-sign {
+	width: 13px;
+	height: 13px;
+	margin-right: 7px;
+	border: 5px solid #114165;
+	border-radius: 50%;
+}
+
+.name {
+	position: relative;
+	top: -5px;
+	left: 0;
+	margin-left: 50px
+}
+
+.name-item {
+	list-style-image: url('../img/marker.png');
+	line-height: 24px;
+}
+
+.name-link {
+	font-size: 13px;
+	color: #114165;
+}
+
+.name-link:hover {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.aside-form label {
+	display: block;
+	font-size: 12px;
+	margin-left: 6px;
+	margin-bottom: 9px;
+}
+
+.asidechoose-heading {
+	margin-bottom: 5px;
+}
+
+.button {
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 80px;
+	background: linear-gradient(to bottom, #1f6585, #0e375c);
+	color: #fff;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+
+
+.examples {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 527px;
+	height: 625px;
+	background: linear-gradient(to bottom, #d9dee1 0%, #b1bec5 33%, #a5b5bc 66%);
+}
+
+.row {
+	display:flex;
+}
+
+.row-first {
+	margin-top: 15px;
+}
+
+.row-second {
+	position: relative;
+	top: -7px;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.tire-name {
+	font-style: 'Lucida Sans';
+	color: #206988;
+	font-size: 16px
+}
+
+.tire-model {
+	font-style: 'Lucida Sans';
+	font-size: 13px;
+}
+
+.price {
+	margin-top: 3px;
+	margin-left: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 0px;
+	color: #294f6f;
+}
+
+.price>span {
+	font-size: 13px;
+}
+
+.examples-tire {
+	margin: 0 14px;
+	padding: 3px 30px;
+	background: #fff;
+	border: 1px solid #a7b1b4;
+	border-radius: 5px;
+}
+
+.tire-center {
+	padding: 3px 33px;
+}
+
+.brands {
+	margin-top: -2px;
+}
+
+/*MAIN-COMPANIES*/
+
+.companies {
+	margin-top: 35px;
+	margin-left: -10px;
+}
+
+.companies a {
+	display: inline-block;
+	width: 80px;
+	height: 21px;
+	background: url('../img/companies.png') no-repeat 0 -3px;
+}
+
+.companies .bridgestone {
+	width: 97px;
+	background-position: -82px -3px;
+	margin-left: 10px;
+}
+
+.companies .continental {
+	width: 80px;
+	background-position: -183px -3px;
+	margin-left: 6px;
+}
+
+.companies .cooper {
+	width: 67px;
+	background-position: -270px -3px;
+	margin-left: 9px;
+}
+
+.companies .avon {
+	width: 73px;
+	background-position: -340px -6px;
+}
+
+.companies .tirefactory {
+	position: relative;
+	top: 5px;
+	left: 0;
+	width: 70px;
+	height: 28px;
+	background-position: -416px 0;
+	margin-left: 2px;
+}
+
+.companies .pirelli {
+	width: 70px;
+	background-position: -488px -3px;
+	margin-left: 5px;
+}
+
+.companies .dunlop {
+	width: 70px;
+	background-position: -558px -3px;
+	margin-left: 2px;
+}
+
+
+/* FOOTER */
+
+.menu-foot {
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+	margin-left: 2px;
+}
+
+.foot-item {
+	padding: 0 14px;
+	border-right: 1px solid #fff;
+}
+
+.foot-item:last-child {
+	border: 0;
+}
+
+.foot-link {
+	font-size: 12px;
+	color: #fff;
+}
+
+.foot-link:hover {
+	color: #448ca8;
+}
+
+.copyright {
+	margin-top: 18px;
+	margin-right: 1px;
+	font-size: 10px;
+	color: #7f4740;
+}

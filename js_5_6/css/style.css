@@ -1,0 +1,29 @@
+body {
+  background: #74AFAD;
+  font-family: Tahoma, Arial sans-serif;
+  text-align: center;
+  color: #fff; }
+  body header {
+    margin-top: 50px;
+    font-size: 70px; }
+  body .content {
+    margin-top: 50px; }
+    body .content .timer {
+      width: 600px;
+      height: 200px;
+      border-radius: 25px;
+      line-height: 200px;
+      font-size: 70px;
+      background: #a3bbbb;
+      border: 1px solid #fff; }
+    body .content div {
+      margin: 10px auto; }
+    body .content .buttons {
+      display: flex;
+      width: 400px; }
+    body .content button {
+      width: 100px; }
+    body .content .results {
+      font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */

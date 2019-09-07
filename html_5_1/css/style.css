@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/HelveticaNeue/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeue/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+    url('../fonts/HelveticaNeue/helveticaneuecyr-thin-webfont.woff') format('woff'),
+    url('../fonts/HelveticaNeue/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* COMMON SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background: url('../img/background.jpg') no-repeat center 0;
+    background-size: 1215px 1064px;
+}
+
+/* HEADER - MENU */
+
+nav {
+    position: relative;
+    width: 1215px;
+    height: 37px;
+    margin: 0 auto;
+    background: url('../img/Header-background.jpg'); 
+}
+
+.menu {
+    margin-right: 380px;
+}
+
+.menu-item {
+    float: right;
+}
+
+.menu-link {
+    display: block;
+    padding: 0 17px;
+    color: #60b5ed;
+    font-size: 14px;
+    line-height: 37px;  
+    text-align: center;
+}
+
+.menu-link:hover {
+    background: #4eacda;
+    color: #fff;
+}
+
+.outer-link {
+    display: block;
+    position: absolute;
+    width: 154px;
+    top: 0;
+    padding: 0 17px;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: center; 
+    color: #fff;
+}
+
+.outer-link a {
+    color: inherit;
+}
+
+.link-grad{
+    left: 1000px;
+    background: linear-gradient(to bottom, #4eacda, #2e7ac4);
+    border-right: 1px solid #4eacda;
+    border-left: 1px solid #4eacda;
+}
+
+.under:hover {
+    text-decoration: none;
+}
+
+.link-white {
+    left: 840px;
+    border-left: 1px solid #60b5ed;
+}
+
+.link-white:before {
+    content: url('../img/flag.png');
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+/* MAIN - FORM */
+
+form {
+    width: 560px;
+    height: 615px;
+    margin: 210px auto 200px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+} 
+
+.main-head {
+    border-bottom: 2px solid #c1cdb9;
+}
+
+.main-head h1 {
+    padding: 20px 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-facebook img {
+    margin-top: 20px;
+}
+
+.main-ouline img {
+    margin: 20px 0;
+}
+
+.main-content div {
+    margin-top: 15px;
+}
+
+.main-input {
+    width: 245px;
+    height: 5px;
+    padding: 15px;
+    border-bottom: 1px solid #4b4a49;
+    background: #101010;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.main-input::-webkit-input-placeholder { color: #fff;}
+
+.main-input::-moz-placeholder {color: #fff;}/* Firefox 19+ */
+
+.main-input:-moz-placeholder { color: #fff;}/* Firefox 18- */
+
+.main-input:-ms-input-placeholder {color: #fff;}
+
+.main-input:focus {
+    border: #35a5e5 1px solid;
+    background: linear-gradient(to top, #1b5288, #4daada);
+    color: inherit; 
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.create {
+    width: 160px;
+    height: 36px;
+    border-radius: 4px;
+    background: linear-gradient(to top, #2f7bc5, #4daada);
+    color: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.privacy {
+    width: 270px;
+    margin: 15px auto;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+

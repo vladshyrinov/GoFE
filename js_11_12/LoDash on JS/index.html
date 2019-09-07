@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>js_11_12</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+	<script defer src="js/script.js"></script>
+</head>
+<body>
+
+	<script type="text/template" id="root">
+<div class="page">
+			<header>
+				<div class="logo">
+					<a href="#"><img src = "<%=imagesAdress.logo%>" alt="logo"></a>
+				</div>
+
+				<div class="menu-container">
+					<ul class="menu-top">
+						<% mainLinks.forEach(function(item) {%>
+							<li class="menu-item"><a class="menu-link" href="#"><%= item.name %></a></li>
+						<% });%>
+					</ul>
+				</div>
+
+			</header>
+			<div class="base clearfix">
+				<nav>
+					<ul class="sidebar">
+						<% sidebarLinks.forEach(function(item) {%>
+							<li class="sidebar-item"><a class="sidebar-link" href="#"><%= item.name %></a></li>
+						<% });%>
+					</ul>
+				</nav>
+				<div class="content">
+					<img src="<%=imagesAdress.bicycle%>" alt="bicycle">
+					<p>
+					<% for(var i=3; i>0; i--) { %>
+						<p><%=text%></p>
+					<% } %>
+					</p>
+				</div>
+			</div>
+			<footer>
+
+				<div class="menu-container">
+					<ul class="menu-bottom">
+						<% mainLinks.forEach(function(item) {%>
+							<li class="menu-item"><a class="menu-link" href="#"><%= item.name %></a></li>
+						<% });%>
+					</ul>
+				</div>
+
+				<div class="rights">
+					2014 &copy; All rights reserved
+				</div>
+			</footer>
+		</div>
+	</script>
+	
+</body>
+</html>

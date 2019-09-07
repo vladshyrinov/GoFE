@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	width: 50vw;
+	margin: 10vw auto;
+	fieldset {
+		padding-left: 3vw;
+		div {
+			position: relative;
+			margin-bottom: 3vw;
+			margin-top: 3vw;
+		}
+	}
+}
+
+.help {
+	position: absolute;
+	width: 20vw;
+	height: 3vw;
+	top: -5vw;
+	left: 24vw;
+	padding: 1vw;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+

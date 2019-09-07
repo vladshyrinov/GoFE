@@ -1,0 +1,49 @@
+$width : 50vw;
+$white : #fff;
+$black : #000;
+$lightBlue : #90C3D4;
+$border: 1px solid #000;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#tabs {
+	width: $width;
+	height: $width/2;
+	position: relative;
+	margin: 10vw auto;
+	overflow-y: scroll;
+	background: #5aa;
+	ul {
+		height: 5vw;
+		width: 100%;
+		background: #eee;
+		position: absolute;
+		li {
+			display: inline-block;
+			height: 100%;
+			text-align: center;
+			line-height: 5vw;
+			list-style: none;
+			a {
+				display: block;
+				padding: 0 2vw 0 2vw;
+				color: $black;
+				text-decoration: none;
+			}
+		}
+	}
+	.tabs-content {
+		margin: 8vw 5vw 0 5vw;
+		color: #eee;
+		text-align: justify;
+	}
+}
+
+
+.active {
+	background: $lightBlue;
+}
+

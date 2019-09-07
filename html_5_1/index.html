@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="facebook, forms, registration">
+	<meta name="author" content="Vlad Shyrinov">
+	<title>Cadastre-se</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="menu clearfix">
+				<li class="menu-item"><a class="menu-link" href="#">Ajuda</a></li>
+				<li class="menu-item"><a class="menu-link" href="#">Contato</a></li>
+				<li class="menu-item"><a class="menu-link" href="#">Forum</a></li>
+				<li class="menu-item"><a class="menu-link" href="#">Vender</a></li>
+				<li class="menu-item"><a class="menu-link" href="#">Meu YouBike</a></li>	
+			</ul>
+			<p class="outer-link link-grad" >Ola! <a href="#" class="under">Entrar</a> ou <a href="#" class="under">Cadastre-se</a></p>
+			<p><a class="outer-link link-white" href="#">Minhas Ofertas</a>
+			</p>
+		</nav>
+	</header>
+	<main>
+		<form action="#" method="post">
+			<div class="main-head"><h1>Cadastre-se</h1></div>
+			<div class="main-content">
+				<div class="main-facebook">
+					<a class="facebook-link" href="#"><img src="img/facebook.png" alt="facebook button"></a>
+				</div>
+				<div class="main-ouline">
+					<img src="img/line.png" alt="line">
+				</div>
+				<div class="main-firstName">
+					<input class="main-input" type="text" name="firstName" placeholder="First Name" required>
+				</div>
+				<div class="main-lastName">
+					<input class="main-input" type="text" name="lastName" placeholder="Last Name" required>
+				</div>
+				<div class="main-email">
+					<input class="main-input" type="email" name="email" placeholder="Email Address" required>
+				</div>
+				<div class="main-pass">
+					<input class="main-input" type="password" name="pass" placeholder="Choose Password" required>
+				</div>
+				<div class="main-passconf">
+					<input class="main-input" type="password" name="passConf" placeholder="Password Confirm" required>
+				</div>
+				<div class="main-send">
+					<label>
+						<input type="checkbox" name="follow" id="follow">
+						Send me YouBike updates and tips
+					</label>
+				</div>
+				<div class="main-create">
+					<input class="create" type="submit" value="Create my Account">
+				</div>
+				<p class="privacy">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
+			</div>
+		</form>
+	</main>
+</body>
+</html>

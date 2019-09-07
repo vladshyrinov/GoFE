@@ -1,0 +1,240 @@
+/* COMMON SETTINGS */
+
+body {
+    background: url('../img/back.jpg') #0c739f repeat-x;
+    font-family: Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.page-wrapper {
+    width: 1000px;
+    margin: 0 auto 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, .75);
+}
+
+/* HEADER */
+
+.contacts {
+    height: 175px;
+}
+
+.contacts-info { 
+    margin-top: 8px;
+    margin-right: 33px;
+    float: right;
+    color: #128aa7;
+}
+
+.info-tel {
+    margin-bottom: 25px;   
+    float: right;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.info-countries {
+    clear: both;
+}
+
+.country-container {
+    display: inline-block;
+    margin: 3px;
+    font-size: 10px;
+    line-height: 10px;
+    text-decoration: underline;
+    text-align: center;   
+}
+
+.country-container a {
+    display: block;
+    color: inherit;
+    padding-top: 40px;
+}
+
+.india,
+.nepal,
+.tibet,
+.butan,
+.srilanka,
+.maldives {
+    width: 42px;
+    height: 42px;
+    background: url('../img/countries.png') no-repeat;
+}
+
+.nepal {
+    background-position: -42px 0;
+}
+
+.tibet {
+    background-position: -84px 0;
+}
+
+.butan {
+    background-position: -126px 0;
+}
+
+.srilanka {
+    background-position: -168px 0;
+    width: 50px;
+}        
+
+.maldives {
+    background-position: -217px 0;
+}
+
+.india:hover {
+    background-position: 0 -99px;
+}
+
+.nepal:hover {
+    background-position: -42px -99px;
+}
+
+.tibet:hover {
+    background-position: -84px -99px;
+}
+
+.butan:hover {
+    background-position: -126px -99px;
+}
+
+.srilanka:hover {
+    background-position: -168px -99px;
+}        
+
+.maldives:hover {
+    background-position: -217px -99px;
+}
+
+.size {
+    font-size: 8px;
+}
+
+.contacts-logo {
+    margin-left: 10px;
+}
+
+.photo {
+    height: 235px;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+    background: url('../img/bridge.jpg');
+}
+
+.menu {
+    position: relative;
+    border-bottom: 1px solid #000;
+    background-color: #343434;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .75);
+}
+
+.menu-item {
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.menu-link {
+    display: block;
+    padding: 3px 0;
+    background: #343434;
+    color: #fff;
+    font-size: 14px;
+}
+
+.first {
+    padding-right: 59px;
+    padding-left: 65px;
+}
+
+.standard {
+    padding-right: 45px;
+    padding-left: 10px;
+}
+
+.expand {
+    padding-right: 55px;
+    padding-left: 36px;  
+}
+
+.last {
+    padding-right: 60px;
+    padding-left: 16px;  
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    background: #343434;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .75);
+}
+
+.submenu-item {
+    display: block;
+}
+
+.submenu-link {
+    display: block;
+    padding: 5px 40px 5px 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+/* CONTENT */
+
+.columns-container {
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 14px;
+    text-align: center; 
+    overflow: hidden;  
+}
+
+.column-left {
+    width: 21%;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+    background: #edeef0;
+}
+
+.column-center {
+    width: 58%;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+    border-right: 1px solid #c7cacf;
+    border-left: 1px solid #c7cacf;  
+    box-sizing: border-box;
+}
+
+.column-right {
+    width: 21%;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: right;
+    background: #edeef0; 
+}
+
+.rights {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+

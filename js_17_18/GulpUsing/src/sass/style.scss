@@ -1,0 +1,15 @@
+$gray: #eee;
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Tahoma, sans-serif;
+	div {
+		width: 400px;
+		margin: 10px auto;
+		background: $gray;
+		img {
+			width: inherit;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_13_14</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+	<script src="babel_js/data.js"></script>
+	<script defer src="babel_js/script.js"></script>
+</head>
+<body>
+	<script type="text/template" id="root">
+		<div class="wrapper">
+			<form action="#" method="POST">
+				<h1><%=header%></h1>
+				<% data.forEach( function(itemQ) { %>
+
+					<p><%=itemQ.question%></p>
+					<% for( var i = 0; i<itemQ.answers.length; i++){ %>
+						<input type="radio" name="<%=itemQ.name%>" value="<%=itemQ.check[i]%>"><%=itemQ.answers[i]%><br>
+						<% } %>
+
+						<% }) %>
+				<button type="button" class="btn btn-info"><%=button%></button>
+			</form>
+
+			<div class="overlay">
+				<div class="modalByMe">
+					<h1>Твой результат</h1>
+					<p class="right"><%=right%></p>
+					<p class="wrong"><%=wrong%></p>
+					<button type="button" class="btn btn-primary">Ok</button>
+				</div>
+			</div>	
+		</div>
+	</script>
+
+</body>
+</html>
